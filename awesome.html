@@ -6,167 +6,259 @@
     <title>Document</title>
 </head>
 <body>
-    DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #container {
-            background-color: rgb(225, 220, 220);
-            width: 100%;
+    <title>Responsive website</title>
+   <style>
+        #Header{
             display: flex;
-
+            background-color: #fff;
         }
-
-        button {
-            background: #fdfcfc;
-
-        }
-
-        button:hover {
-            background-color: rgb(241, 18, 10);
-        }
-          h1 {
-            color: rgb(28, 4, 250);
-            align-items: center;
-          }
-           #header {
+        #Title{
+            color: blue;
             display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-            align-items: center;
-            height: 50px;
+            margin-left: 15px;
+            position: sticky;
         }
-         #bbb {
-            align-content: flex-start;
-            width: 30%;
-            margin: 0px 10px;
-        }
-         .nav {
-            width: 15%;
-            text-align: end;
-            margin: 2%;
-        }
-        div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  height: 200px;
-  border: 3px solid #73AD21;
-}
- .fixed-navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 80px;
-            background: linear-gradient(135deg, #ffffff, #ffffff);
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        #nav{
             display: flex;
-            align-items: center; 
-            justify-content: center;
-        }
-    
-
-    </style>
-</head>
-
-<body>
-      <div id="header" class="fixed-navbar">
-            <div style="text-align: left;" id="bbb">
-                <h1>Your Brand</h1>
-            </div>
-            <div class="nav">
-                <p>Home</p>
-            </div>
-            <div class="nav">
-                <p>Favorites</p>
-            </div>
-            <div class="nav">
-                <p>About</p>
-            </div>
-            <div class="nav">
-                <p>Contact</p>
-            </div>
-        </div>
-    
-
-
-    </div>
-    <div style="background-color: blue; height: 300px; width:100%; text-align: center;">
-        <h2 style="color: white;">Welcome to Something </h2>
-
-        <h2 style="color: white; text-align: center;">Awesome</h2>
-        <p style="color: white;"> A beautiful fixed-width Website built Pure HTML & CSS No responshness.</p>
-        <p style="color: white;"> NO JavaScript. Just classic web.</p>
-
-        <button>Get started</button>
-
-
-    </div>
-    <div style="background-color: rgb(248, 245, 240); height: 200px;width: 100%; display: flex;text-align: center; ">
-        <div class="feature box" style="height: 150px; width: 200px; background-color: rgb(233, 234, 234); margin-top: 50px;">
-            <h3>Fast & Lightweight</h3>
-            <p>No media queries, no mobile menu, just pure design.</p>
-
-        </div>
-
-        <div class="feature box"
-            style="height: 150px; width: 200px; background-color: rgb(207, 216, 224); margin-left: 250px; margin-top: 50px;">
-            <h3>Pixel-Perfect Control</h3>
-            <p>No media queries, no mobile menu, just pure design.</p>
-
-        </div>
-        <div class="feature box"
-            style="height: 150px; width: 200px; background-color: rgb(207, 216, 224); margin-left: 250px; margin-top: 50px;">
-
-
-            <h3>Classic Web Feed</h3>
-            <p>No media queries, no mobile menu, just pure design.</p>
-
-
-        </div>
-
-
-
-
-    </div>
-    <div>
-        <div
-            style="background-color: rgb(227, 227, 230); height: 200px; width:100%; text-align: center;margin-top: 100px;;">
-            <h3>About This Non-Responsive Layout</h3>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde dolor laborum corrupti totam, porro
-                ipsa libero earum animi, aspernatur id eaque dolores hic, debitis omnis? Deleniti ratione eius, ut
-                accusamus, eum quo harum tenetur maiores cumque asperiores illum fuga soluta deserunt vel tempore animi
-                omnis amet, ab aut quod.</p>
-        </div>
-    </div>
-    
-
-    <h3 style="text-align: center;">Get In Touch</h3>
-     <div><input type="text" placeholder="Your Name" style="width: 50%;margin-left: 25%;margin-top: 10px;"></div>
-     <div><input type="email" placeholder="Your Email" style="width: 50%;margin-left: 25%;margin-top: 10px;"></div>
-
-     <div><textarea name="" id="" style="width: 50%;height: 70px;margin-left: 25%;margin-top: 10px;" placeholder="Your Message"></textarea></div>
-               <button class="btn" style="margin-left: 270px;background-color: blue; color: white;">Send Message</button>
+            position: absolute;
+            right: 40px;
+            margin-top: 40px;
+            
             
 
+        }
+        .a{
+            margin-left: 20px;
+        }
+        #box1{
+            
+            background-color: blue;
+            height: 300px;
+            text-align: center;
+            padding-top: 40px;
+           
 
 
+        }
+        #Wlc{
+             color: white;
 
+            
+        }
+        #text{
+             color: white;
+           
+        }
+        #button{
+            background-color: #fff;
+            text-align: center;
+            border-radius: 70px;
+            height: 40px;
+            width: 150px;
 
+        }
+        #Smallbox{
+            display: flex;
+           
+            
+        }
+        #box2{
+            background-color: rgb(210, 236, 236);;
+            width: 22%;
+            text-align: center;
+            border-radius: 10px;
+            margin-left: 150px;
+            margin-top: 70px;
+            padding-top: 10px;
+            height: 170px;
+             box-shadow: 5px 5px 5px 5px #dfdfdf;
+            
+            
+            
+        }
+        #Fast{
+                color: blue;
+        }
+        #box3{
+            background-color: rgb(210, 236, 236);;
+            width: 22%;
+            text-align: center;
+            border-radius: 10px;
+            margin-left: 80px;
+            margin-top: 70px;
+            padding-top: 10px;
+            height: 170px;
+             box-shadow: 5px 5px 5px 5px #dfdfdf;
+             
+            
+            
+        }
+        #Pixel{
+            color: blue;
+        }
+        #box4{
+            background-color: rgb(210, 236, 236);;
+            width: 22%;
+            text-align: center;
+            border-radius: 10px;
+            margin-left: 80px;
+            margin-top: 70px;
+            padding-top: 10px;
+            height: 170px;
+             box-shadow: 5px 5px 5px 5px #dfdfdf;
+            
+            
+        }
+        #Classic{
+            color: blue;
+        }
+        #Content2{
+            background-color: rgb(182, 212, 212);
+            width: 96%;
+            height: 220px;
+            margin-left: 30px;
+            margin-top: 70px;
+            padding-top: 70px;
+            text-align: center;
+            border-radius: 10px;
+             box-shadow: 5px 5px 5px 5px #dfdfdf;
+            
+        }
+        #getintouch{
+            margin-top: 70px;
+            text-align: center;
+        }
+        #input{
+            text-align: center;
+            
+
+        }
+        input{
+            height: 40px;
+            width: 40%;
+            border: 2px solid rgb(176, 171, 171);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        #comment{
+            margin-top: 20px;
+            
+            width: 40%;
+            border: 2px solid rgb(176, 171, 171);
+            border-radius: 5px;
+            height: 90px;
+        }
+        #sm{
+                position: relative;
+                right: 233px;
+                background-color: blue;
+                color: white;
+                border-radius: 4px;
+                height: 35px;
+
+        }
+
+        #Footer{
+           margin-top: 100px;
+            background-color: black;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+
+        }
+        #copywright{
+            color: white;
+        }
+        #bluetext{
+                color: blue;
+        }
+        #button:hover{
+            background-color: rgb(155, 108, 243);
+            height: 42px;
+            width: 155px;
+            /* transform: translate(25px,20px); */
+            transition:  0.5s ;             
+        }
+        #sm:hover{
+            background-color: #042c77;
+            
+        }
+
+   </style>
+     
+</head>
+<body>
+    <script src="function.js"></script>
+    
+        <div id="Header">
+            <h1 id="Title"> Your Brand</h1>
+            <div id="nav">
+                <div class="a" >Homes</div>
+                <div  class="a">Features</div>
+                <div class="a">About</div>
+                <div class="a">Contacts</div>
+            </div>
+        </div>
+
+        <div id="box1">
+            <h1 id="Wlc">Welcome to Something <br>
+            Awesome</h1>
+            <p id="text">A beautiful fixed-width website built with pure HTML & CSS. No responsiveness. <br> <br>No Javascript Just Classic web.</p><br>
+            <button id="button" onclick="Getstarted()" > Get Started</button>
+        </div>
+
+        <div id="Smallbox">
+            <div id="box2">
+            <h2 id="Fast">Fast & Lightweight</h2>
+            <p>Noradius Queries, And inchyase <br>
+                menu as black Pure desktop <br>
+            predection  </p>
+
+        </div>
+        <div id="box3">
+            <h2 id="Pixel">Pixel-Perfect Control</h2>
+            <p>Noradius Queries, And inchyase and <br>
+                menu as black Pure desktop </p>
+
+        </div>
+
+        <div id="box4">
+            <h2 id="Classic">Classic Web Feel</h2>
+            <p>Noradius Queries, And inchyase and <br>
+                menu as black Pure desktop  are in <br>
+            well defined.</p>
+
+        </div>
+
+        </div>
+        <div id="Content2">
+            <h1> <b>About This Non-Responsive Layout </b></h1>
+            <p>This Layout is dileberately fixed at 1000px wide and will never adapt. On phones? You'll get a tiny <br>
+            zoomed-out version with horizontal scrolling--- just like the good old days. No hamburger menus, <br>
+            no collapsing columns no view port tricks. Pure,unapologetic desktop designs. </p>
+        </div>
+
+        <h1 id="getintouch">Get In Touch</h1>
+        <div id="input"> 
+            <input type="text" placeholder="  Your Name"> <br>
+            <input type="email" placeholder="  Your Email"> <br>
+            <textarea name="comment" id="comment" placeholder=" Your Message"  ></textarea> <br>
+            <button id="sm" onclick="Sendmsg()">Send Message</button>
+
+            </div>
+
+            <div id="Footer">
+                <p id="copywright">@ 2025 Yourbrand Proudly non-responsive since 2025.</p>
+                <p id="bluetext">Privacy Policy - Terms of Service</p>
+            </div>
+        
 
 </body>
-
 </html>
-11:43 am
-
-
 </body>
 </html>
